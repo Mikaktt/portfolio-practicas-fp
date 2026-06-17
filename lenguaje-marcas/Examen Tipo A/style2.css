@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header, main, footer{
+    max-width: 1024px;
+    border: 1px solid black;
+}
+
+
+
+.portfolio_container{
+    margin: 80px auto;
+   
+    border: 1px solid black;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+
+
+.portfolio_card p, h3{
+    color: black;
+    text-align: center;
+    
+    font-weight: bold;
+}
+
+.portfolio_card img{
+    width: 80%;
+}
